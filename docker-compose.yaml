@@ -1,4 +1,6 @@
 version: '3.9'
+volumes:
+  axon-server: {}
 services:
   axon:
     image: axoniq/axonserver
@@ -6,4 +8,5 @@ services:
       - "8024:8024"
       - "8124:8124"
     environment:
-      AXONIQ_AXONSERVER_NAME: order_demo
+      AXONIQ_AXONSERVER_NAME: axon_server
+      JAVA_TOOL_OPTIONS: -Xmx512m

@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.maryanto.dimas.example</groupId>
-        <artifactId>event-sourcing-axon-example</artifactId>
+        <artifactId>springboot3-design-pattern-axon</artifactId>
         <version>1.0.0-release</version>
     </parent>
 

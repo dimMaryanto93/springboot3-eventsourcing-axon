@@ -15,7 +15,7 @@
         <module>gocar</module>
     </modules>
     <groupId>com.maryanto.dimas.example</groupId>
-    <artifactId>event-sourcing-axon-example</artifactId>
+    <artifactId>springboot3-design-pattern-axon</artifactId>
     <version>1.0.0-release</version>
     <name>event-sourcing-axon-example</name>
     <description>Demo project for Spring Boot</description>
@@ -32,16 +32,16 @@
             <artifactId>axon-spring-boot-starter</artifactId>
             <version>4.8.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
         <dependency>
@@ -60,14 +60,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

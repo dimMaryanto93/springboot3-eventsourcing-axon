@@ -1,0 +1,5 @@
+server:
+  port: ${APPLICATION_PORT:9092}
+spring:
+  application:
+    name: gojek-service

@@ -11,8 +11,8 @@
 	<packaging>pom</packaging>
     <modules>
         <module>order-service</module>
-        <module>gojek</module>
-        <module>gocar</module>
+        <module>gojek-service</module>
+        <module>gocar-service</module>
     </modules>
     <groupId>com.maryanto.dimas.example</groupId>
     <artifactId>springboot3-design-pattern-axon</artifactId>

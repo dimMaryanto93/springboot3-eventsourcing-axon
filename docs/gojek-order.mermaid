@@ -1,0 +1,16 @@
+sequenceDiagram
+    title Order system;
+    actor c as Customer;
+    actor d as Driver;
+    autonumber
+    participant msg as Message Bus;
+
+    participant ord as Order System;
+    c ->> ord: create order
+    ord ->> msg: finding driver near by
+
+    participant m as Mitra;
+    msg -->> m: push notif to driver
+    m -->> d: get list driver near by
+    d ->> msg: driver accept the order
+    msg -->> ord: driver on going to cust location

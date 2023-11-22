@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: order-service
+
+axon:
+  axonserver:
+    enabled: ${AXONSERVER_ENABLED:true}
+    servers: ${AXONSERVER_HOST:localhost}:${AXONSERVER_PORT:8124}

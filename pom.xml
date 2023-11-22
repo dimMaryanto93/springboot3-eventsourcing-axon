@@ -13,6 +13,7 @@
         <module>order-service</module>
         <module>gojek-service</module>
         <module>gocar-service</module>
+        <module>customer-service</module>
     </modules>
     <groupId>com.maryanto.dimas.example</groupId>
     <artifactId>springboot3-design-pattern-axon</artifactId>

@@ -10,9 +10,12 @@ public class GojekOrderRequestService {
 
     public GojekOrder.Request orderCreate(GojekOrder.Request request) {
         request.setId(UUID.randomUUID().toString());
-//        1. TODO store in database
+//        1. TODO order request by customer
 //        2. TODO request near by driver
-//        3. TODO order pick up by drive
+//        3. TODO order confirm by driver
+//        4. TODO customer confirm to pickup
+//        5. TODO order complete mark by driver
         return request;
     }
+
 }

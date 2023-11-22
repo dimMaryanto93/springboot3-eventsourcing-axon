@@ -2,7 +2,7 @@ server:
   port: ${APPLICATION_PORT:9091}
 spring:
   application:
-    name: gocar-service
+    name: customer-service
 
 axon:
   axonserver:
